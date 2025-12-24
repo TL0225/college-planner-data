@@ -1,0 +1,75 @@
+{
+  "school_id": "rutgers_nb",
+  "school_name": "Rutgers University - New Brunswick",
+  "catalog_url": "https://catalog.rutgers.edu",
+  "version": "2025-2026",
+  "last_updated": "2025-12-23T00:00:00Z",
+  "courses": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "course_code": "CS 111",
+      "title": "Introduction to Computer Science",
+      "description": "An introduction to computer science concepts including programming, algorithms, and data structures.",
+      "credits": 4,
+      "department": "CS",
+      "prerequisites": null,
+      "corequisites": null,
+      "typically_offered": ["Fall", "Spring"]
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "course_code": "CS 112",
+      "title": "Data Structures",
+      "description": "Study of data structures including arrays, linked lists, stacks, queues, trees, and graphs.",
+      "credits": 4,
+      "department": "CS",
+      "prerequisites": {
+        "type": "course",
+        "course": {
+          "course_code": "CS 111",
+          "min_grade": "C"
+        }
+      },
+      "corequisites": null,
+      "typically_offered": ["Fall", "Spring"]
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "course_code": "MATH 151",
+      "title": "Calculus I",
+      "description": "Differential and integral calculus of functions of one variable.",
+      "credits": 4,
+      "department": "MATH",
+      "prerequisites": null,
+      "corequisites": null,
+      "typically_offered": ["Fall", "Spring", "Summer"]
+    }
+  ],
+  "degree_requirements": [
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440001",
+      "degree_type": "Bachelor of Science",
+      "major": "Computer Science",
+      "category": "Core Requirements",
+      "required_courses": ["CS 111", "CS 112", "CS 205", "CS 206"],
+      "credits_required": 16,
+      "description": "All CS majors must complete these core courses"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440002",
+      "degree_type": "Bachelor of Science",
+      "major": "Computer Science",
+      "category": "Mathematics",
+      "required_courses": ["MATH 151", "MATH 152"],
+      "credits_required": 8,
+      "description": "Required mathematics courses"
+    }
+  ],
+  "policies": {
+    "transfer_credit_limit": 60,
+    "minor_transfer_limit": 6,
+    "max_credits_per_semester": 18,
+    "min_credits_full_time": 12,
+    "grade_for_credit": "D"
+  }
+}
