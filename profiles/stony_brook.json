@@ -1,0 +1,91 @@
+{
+  "school_id": "stony_brook",
+  "school_name": "Stony Brook University",
+  "catalog_url": "https://catalog.stonybrook.edu/",
+  "version": "spring-2026-undergrad",
+  "last_updated": "2025-10-01T00:00:00Z",
+  "courses": [
+    {
+      "id": "00000000-0000-0000-0000-000000000201",
+      "course_code": "CSE 114",
+      "title": "Introduction to Object-Oriented Programming",
+      "description": "Introduction to programming in an object-oriented language. Topics typically include variables, control structures, methods, arrays, objects, and basic software development practices.",
+      "credits": 4,
+      "department": "Computer Science",
+      "prerequisites": null,
+      "corequisites": null,
+      "typically_offered": [
+        "Fall",
+        "Spring"
+      ]
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000202",
+      "course_code": "CSE 214",
+      "title": "Data Structures",
+      "description": "Study of data structures and their implementation and use in software. Topics typically include lists, stacks, queues, trees, hashing, and algorithm analysis.",
+      "credits": 4,
+      "department": "Computer Science",
+      "prerequisites": {
+        "type": "course",
+        "course": {
+          "course_code": "CSE 114",
+          "min_grade": "C"
+        }
+      },
+      "corequisites": null,
+      "typically_offered": [
+        "Fall",
+        "Spring"
+      ]
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000203",
+      "course_code": "AMS 151",
+      "title": "Applied Calculus I",
+      "description": "Differential calculus with applications. (Exact coverage varies by program.)",
+      "credits": 3,
+      "department": "Applied Mathematics and Statistics",
+      "prerequisites": null,
+      "corequisites": null,
+      "typically_offered": [
+        "Fall",
+        "Spring"
+      ]
+    }
+  ],
+  "degree_requirements": [
+    {
+      "id": "00000000-0000-0000-0000-000000000211",
+      "degreeType": "Bachelor of Science",
+      "major": "Computer Science",
+      "category": "Core",
+      "requiredCourses": [
+        "CSE 114",
+        "CSE 214"
+      ],
+      "creditsRequired": 8,
+      "description": "Sample core requirements for quick testing. Replace with full program requirements as you grow the dataset."
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000212",
+      "degreeType": "Bachelor of Science",
+      "major": "Computer Science",
+      "category": "Mathematics",
+      "requiredCourses": [
+        "AMS 151"
+      ],
+      "creditsRequired": 3,
+      "description": "Sample math requirement for quick testing."
+    }
+  ],
+  "policies": {
+    "maxTransferCredits": 70,
+    "minResidencyCredits": 30,
+    "maxCreditsPerSemester": 19,
+    "minGPAForGraduation": 2.0,
+    "notes": [
+      "This is seed data for testing the app flow. For authoritative policies, consult the Stony Brook Undergraduate Catalog and SUNY policies."
+    ]
+  }
+}
