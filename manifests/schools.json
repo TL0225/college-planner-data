@@ -20,5 +20,16 @@
     "last_updated": "2025-10-01T00:00:00Z",
     "courses_count": 3,
     "verified": false
+  },
+  {
+    "id": "university_at_buffalo",
+    "name": "University at Buffalo",
+    "short_name": "UB",
+    "profile_url": "https://raw.githubusercontent.com/TL0225/college-planner-data/main/profiles/university_at_buffalo.json",
+    "catalog_url": "https://catalogs.buffalo.edu/index.php?catoid=17",
+    "catalog_format": "acalog",
+    "last_updated": "2025-12-25T00:00:00Z",
+    "courses_count": 0,
+    "verified": false
   }
 ]
